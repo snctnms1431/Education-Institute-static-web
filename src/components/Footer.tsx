@@ -38,10 +38,22 @@ const Footer = () => (
       </div>
       <div className="border-t border-white/20 mt-10 pt-6 text-center text-xs text-white/50">
       <div className="flex gap-5 mt-5">
-            <Linkedin size={25} className="hover:text-white transition-colors cursor-pointer"/>
-            <TwitterIcon size={25} className="hover:text-white transition-colors cursor-pointer"/>
-            <Instagram size={25} className="hover:text-white transition-colors cursor-pointer"/>
-      </div>
+  <a 
+    href="https://www.linkedin.com/in/harshal-nimse-73b496326/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Linkedin size={25} className="hover:text-white transition-colors cursor-pointer"/>
+  </a>
+
+  <a href=" " target="_blank" rel="noopener noreferrer">
+    <TwitterIcon size={25} className="hover:text-white transition-colors cursor-pointer"/>
+  </a>
+
+  <a href=" " target="_blank" rel="noopener noreferrer">
+    <Instagram size={25} className="hover:text-white transition-colors cursor-pointer"/>
+  </a>
+</div>
      
         © {new Date().getFullYear()} Pinnacle Institute. All rights reserved.
       </div>
