@@ -37,8 +37,7 @@ const HeroSection = () => {
           </div>
         </div>  
           <div className="flex justify-around ">
-            <img src="/cap.png" alt="Graduation Cap" className="w-[450px]" />
-          </div>
+<img src="/Education-Institute-static-web/cap.png" alt="Graduation Cap" className="w-[450px]" />          </div>
         </div>
 
         <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-7 animate-fade-up" style={{ animationDelay: "0.1s" }}>

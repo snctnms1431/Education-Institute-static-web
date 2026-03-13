@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
           <div className="w-9 h-9 rounded-lg bg-hero flex items-center justify-center ">
-            <img src="/logo.png" alt="Institute logo" />
+            <img src="/Education-Institute-static-web/logo.png" alt="Institute logo" />
           </div>
           <span className=" font-poppins font-bold text-2xl text-foreground"><span className="text-3xl">P</span>innacle <span className="text-3xl">I</span>nstitute</span>
         </Link>
